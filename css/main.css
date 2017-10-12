@@ -1164,9 +1164,9 @@ body {
   .slider__ipad img {
     display: none; }
   .box__img_ebook {
-    background-position-x: 88px; }
+    background-position-x: center; }
   .box__img_leo {
-    background-position-x: 136px; }
+    background-position-x: center; }
   .main__header {
     min-height: 180px;
     text-align: center; }
