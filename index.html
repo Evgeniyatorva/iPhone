@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>iphone</title>
-	<link rel="stylesheet" href="css/normalize.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
@@ -13,28 +14,33 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
-				<div class="header__top">
-					<div class="logo">
-						<h1 class="logo__text">Dublin Apps<br><span>ipad applications</span></h1>
+				<div class="row">
+					<div class="col-sm-4 col-xs-8">
+						<div class="logo">
+							<h1 class="logo__text">Dublin Apps<br><span>ipad applications</span></h1>
+						</div>
 					</div>
-					<nav class="menu">
-						<ul class="menu__items">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="product__page.html">ipad apps</a></li>
-							<li><a href="demonstrations.html">Demonstrations</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="connect_us.html">Connect us</a></li>
-						</ul>
-					</nav>
+					<div class="col-sm-8 col-xs-4">
+						<button class="mobile-menu"></button>
+						<nav class="menu">
+							<ul class="menu__items">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="product__page.html">ipad apps</a></li>
+								<li><a href="demonstrations.html">Demonstrations</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="connect_us.html">Connect us</a></li>
+							</ul>
+						</nav>							
+					</div>
 				</div>
 			</div>
 		</header>
 		<section class="slider">
 			<div class="container">
-				<div class="slider__ipad">
+				<div class="row">			
 					<ul id="slider">
 						<li>
-							<div class="col_left">
+							<div class="col-sm-4 col-xs-12">
 								<div class="slider__title">
 									<h2>Dublin's<br><span>iPad <span>Apps</span></span></h2>
 									<p>Free and paid apps<br> for your iPad</p>
@@ -43,14 +49,14 @@
 									<button class="btn_header">Read More</button>
 								</div>
 							</div>
-							<div class="col_right">
+							<div class="col-sm-8 col-xs-12">
 								<div class="slider__ipad">
 									<img src="img/header__ipad.png" alt="ipad">
 								</div>
 							</div>
 						</li>
 						<li>
-							<div class="col_left">
+							<div class="col-sm-4 col-xs-12">
 								<div class="slider__title">
 									<h2>Dublin's<br><span>iPad <span>Apps</span></span></h2>
 									<p>Free and paid apps<br> for your iPad</p>
@@ -59,14 +65,14 @@
 									<button class="btn_header">Read More</button>
 								</div>
 							</div>
-							<div class="col_right">
+							<div class="col-sm-8 col-xs-12">
 								<div class="slider__ipad">
 									<img src="img/header__ipad.png" alt="ipad">
 								</div>
 							</div>
 						</li>
 						<li>
-							<div class="col_left">
+							<div class="col-sm-4 col-xs-12">
 								<div class="slider__title">
 									<h2>Dublin's<br><span>iPad <span>Apps</span></span></h2>
 									<p>Free and paid apps<br> for your iPad</p>
@@ -75,183 +81,199 @@
 									<button class="btn_header">Read More</button>
 								</div>
 							</div>
-							<div class="col_right">
+							<div class="col-sm-8 col-xs-12">
 								<div class="slider__ipad">
 									<img src="img/header__ipad.png" alt="ipad">
 								</div>
 							</div>
 						</li>
-					</ul>
-				</div>
+					</ul>					
+				</div>				
 			</div>
 		</section>
 		<section class="boxes">
 			<div class="container">
-				<div class="box">
-					<div class="box__img_ebook"></div>
-					<p>E Book Reader pro</p>
-				</div>
-				<div class="box">
-					<div class="box__img_viewer"></div>
-					<p>Image viewer pro</p>
-				</div>
-				<div class="box">
-					<div class="box__img_media"></div>
-					<p>Media mannager</p>
-				</div>
-				<div class="box box_last">
-					<div class="box__img_leo"></div>
-					<p>Leo Entertainment</p>
-				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="box">
+							<div class="box__img_ebook"></div>
+							<p>E Book Reader pro</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="box">
+							<div class="box__img_viewer"></div>
+							<p>Image viewer pro</p>
+						</div>						
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="box">
+							<div class="box__img_media"></div>
+							<p>Media mannager</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="box">
+							<div class="box__img_leo"></div>
+							<p>Leo Entertainment</p>
+						</div>						
+					</div>
+				</div>				
 			</div>
 		</section>
 		<section class="categories">
 			<div class="container">
-				<div class="category">
-					<h3 class="category__title">Discover Apps<br><span>Lorem lpsum is simply dummy</span></h3>
-					<p class="category__text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been the<br> industry's standard dummy text ever sinc</p>
-				</div>
-				<div class="category">
-					<h3 class="category__title">Browse Apps<br><span>Lorem lpsum is simply dummy</span></h3>
-					<p class="category__text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been the<br> industry's standard dummy text ever sinc</p>
-				</div>
-				<div class="category">
-					<h3 class="category__title">Development<br><span>Lorem lpsum is simply dummy</span></h3>
-					<p class="category__text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been the<br> industry's standard dummy text ever sinc</p>
-				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="category">
+							<h3 class="category__title">Discover Apps<br><span>Lorem lpsum is simply dummy</span></h3>
+							<p class="category__text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been the<br> industry's standard dummy text ever sinc</p>
+						</div>						
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="category">
+							<h3 class="category__title">Browse Apps<br><span>Lorem lpsum is simply dummy</span></h3>
+							<p class="category__text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been the<br> industry's standard dummy text ever sinc</p>
+						</div>						
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="category">
+							<h3 class="category__title">Development<br><span>Lorem lpsum is simply dummy</span></h3>
+							<p class="category__text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been the<br> industry's standard dummy text ever sinc</p>
+						</div>						
+					</div>
+				</div>				
 			</div>
 		</section>
 		<section class="slider2">
 			<div class="container">
-				<div class="slider__news">
-					<ul id="slider2">
-						<li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <span>Ipsum has been the industry's</span> standard dummy text </p></li>
-						<li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <span>Ipsum has been the industry's</span> standard dummy text </p></li>
-						<li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <span>Ipsum has been the industry's</span> standard dummy text </p></li>
-					</ul>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="slider__news">
+							<ul id="slider2">
+								<li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <span>Ipsum has been the industry's</span> standard dummy text </p></li>
+								<li><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <span>Ipsum has been the industry's</span> standard dummy text </p></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section class="product">
 			<div class="container">
-				<div class="product__title">
-					<h2>There are many variations of passages<br><span>Lorem Ipsum is simply dummy</span></h2>
-				</div>
-				<div class="product__img">
-					<img src="img/product_ipad.png" width="382" height="235" alt="ipad">
-				</div>
-				<div class="product__audio">
-					<audio controls>
-						<source src="../audio/123.mp3" type="audio/mp3">
-						Ваш браузер не пожжерживает тег audio!
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</audio>
-					<audio controls>
-						<source src="../audio/123.mp3" type="audio/mp3">
-						Ваш браузер не пожжерживает тег audio!
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</audio>
-					<audio controls>
-						<source src="../audio/123.mp3" type="audio/mp3">
-						Ваш браузер не пожжерживает тег audio!	
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-						</audio>
-					<audio controls>
-						<source src="../audio/123.mp3" type="audio/mp3">
-						Ваш браузер не пожжерживает тег audio!
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</audio>
-					<audio controls>
-						<source src="../audio/123.mp3" type="audio/mp3">
-						Ваш браузер не пожжерживает тег audio!
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</audio>
-					<button class="btn">Read More</button>
-					<button class="btn">Download</button>
-				</div>
+				<div class="row">
+					<div class="product__title col-xs-12 ">
+						<h2>There are many variations of passages<br><span>Lorem Ipsum is simply dummy</span></h2>
+					</div>
+					<div class="product__img col-md-6 col-xs-12">
+						<img src="img/product_ipad.png" width="382" height="235" alt="ipad">
+					</div>
+					<div class="product__text col-md-6 col-md-offset-0 col-sm-offset-4 col-sm-6 col-xs-10 col-xs-offset-2">
+						<ul>
+							<li><a href="#">Lorem ipsum dolor </a></li>
+							<li><a href="#">Consectetuadipisicing</a></li>
+							<li><a href="#">Eiusmod </a></li>
+							<li><a href="#">Tempor incididunt</a></li>
+							<li><a href="#">Labore et dolore </a></li>
+							<li><a href="#">Magna aliua</a></li>
+						</ul>
+						<button class="btn">Read More</button>
+						<button class="btn">Download</button>
+					</div>
+				</div>				
 			</div>
 		</section>
 		<section class="accord">
 			<div class="container">
-				<div class="accordion" id="accordion">
-					<h3 class="accordion__title">Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the industry's standard </h3>
-					<div>
-						<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+				<div class="row">
+					<div class="accordion col-xs-12" id="accordion">
+						<h3 class="accordion__title">Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the industry's standard </h3>
+						<div>
+							<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+						</div>
+						<h3 class="accordion__title">Dummy text ever since the 1500s, when an unknown printer Took a galley of type and scrambled it to make a type specimen book. </h3>
+						<div>
+							<p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+						</div>
+						<h3 class="accordion__title">It has survived not only five centuries, but also the </h3>
+						<div>
+							<p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+						</div>
+						<h3 class="accordion__title">Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the industry's standard </h3>
+						<div>
+							<p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+						</div>
+						<h3 class="accordion__title">Dummy text ever since the 1500s, when an unknown printer Took a galley of type and scrambled it to make a type specimen book. </h3>
+						<div>
+							<p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+						</div>
 					</div>
-					<h3 class="accordion__title">Dummy text ever since the 1500s, when an unknown printer Took a galley of type and scrambled it to make a type specimen book. </h3>
-					<div>
-						<p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
-					</div>
-					<h3 class="accordion__title">It has survived not only five centuries, but also the </h3>
-					<div>
-						<p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
-					</div>
-					<h3 class="accordion__title">Lorem Ipsum is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the industry's standard </h3>
-					<div>
-						<p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-					</div>
-					<h3 class="accordion__title">Dummy text ever since the 1500s, when an unknown printer Took a galley of type and scrambled it to make a type specimen book. </h3>
-					<div>
-						<p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-					</div>
-				</div>
+				</div>				
 			</div>
 		</section>
 	</div>
 	<footer class="footer">
-		<div class="footer__opacity">
-			<div class="container">
-				<div class="footer__top">
+		<div class="container">
+			<div class="row">
+				<div class="footer__top col-xs-12">
 					<div class="footer__top_icon">
-						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45px" height="31px">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45px" height="31px" viewBox="0 0 45 31">
 							<image  x="0px" y="0px" width="45px" height="31px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAfCAMAAABEdrQOAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACDVBMVEU3N0c4OEc4OEj///84OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEg4OEg4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEg4OEc3N0c4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEg4OEc4OEc4OEc4OEc3N0c4OEg4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEg4OEg4OEc4OEc4OEc4OEc4OEg4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEg4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc3N0c4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEc4OEg3N0c3N0c4OEc4OEc4OEc4OEc4OEc4OEc4OEc3N0c4OEc4OEg4OEc4OEc4OEg3N0f///9C9cFlAAAAq3RSTlMAAAAAGTEzfzAEFSrE3OP0wsdiJMn6rXdCChK69nlNGAKY0lWSPF3+eAMRNZPobCHh/GQQv9iBAaY2PZTth0Tush2DhsP1cJ4vD3vz4p0pF5bmgCVIS7aLLbNQG5zV79SR2upOHECZCwY6+f33FFSv+LdkCEWj+6xPQ18/fTmnJgdGfswFajTXaNFcVsUQPg0+dY+7b3aFW+dzMs9giRuU2OVmkLDe2s6fciBk7+ppAAAAAWJLR0QDEQxM8gAAAAd0SU1FB+EIEw0sKGdMgTAAAAI/SURBVDjLdZSJV9NAEMaztKIoULFSqK0SlRIrVC1WK1gFFdSCN3iAgLeVehUrotQb7wsRxQsV72M2/6PJ7ibZTcP3XvP6dn47+2V2JpKETBWQp7kguWcUzpxVNNtlSRIJXnOKS0o9c8vm5dFmYk7e+QDlvopKvxNt14IAAAQDCxdViXSB5UQ2YXkxAAZdS5bytEZKhg1/dYiZqlEoqx+wLCw4MeDltXWRFeTfylVgKVrv6Ht1LLAmujaMUHwdB6vgaTBovhaN6xNadANCG5tAwJvjjJaIj02bt9QUotqWVj26FW0DUcHtgpNkWzvs2Llrd0yPte/ZK2TWtI/ARYzu6Nx/ACBy8FCXQgFWEcw2xDRW7g4x+nBPb5+2iI8cPcayidmPnzh5qvp0it4OOtPfkyYRpVXJZ7Xf2XO4+LzuW0+funCRUBjbEzNLmYFLWa7eycuD5ZAvY/OVoavXhrslq1+zua6MI0kMBhMt173CXcZv3Oxz9IHLOm65b8u2jpXQHebfZv/uNP1dTwuOMX9Cpp/RSX5uJJSLGJ5VzsrIPUbfb+T76sFDDVQFz7oeGT3Y8PiJ35iH7NNSWgpVfNNnz83+HlaGXowS9uWgvRZUnhw3DWOQiL2qGKsbbzKsYiF5+rXM0eE3010g1YQJ0wq+fcczggsIvrdgNmkffNG8PqX7PnLfB+t2JgfSogNyQu+nzy4bTes9WvllivKYkCp89U16EXI55dYUdoe+ff8xMlXy89fv8T9/O/+l9FWB/g84rLwU3XtraAAAAABJRU5ErkJggg==" />
 						</svg>
 					</div>
 					<p class="footer__top_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text  of the printing and typesetting industry.</p>
 					<p class="footer__top_author">- versions of Lorem Ipsum.</p>
 				</div>
+			</div>
+			<div class="row">
 				<div class="footer__bottom">
-					<div class="footer__subscribe">
-						<h3>Newsletter</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and typeset-<br>ting industry. Lorem Ipsum has been the industry's </p>
-						<form action="#" method="post">
-							<input type="email" placeholder="enter your email address">
-							<input type="submit" value="Subscribe">
-						</form>
-						<div class="footer__social">
-							<a href="#" class="footer__social_tw">
-								<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="18px">
-									<image  x="0px" y="0px" width="25px" height="18px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAASCAMAAACZ8IWSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABelBMVEVsbIJtbYJtbYP///9tbYJsbIJtbYJsbIJtbYJsbIJsbIJtbYJtbYNtbYJsbIJsbIJsbIJsbIJtbYJsbIJtbYJtbYJtbYJtbYJsbIJsbIJtbYJtbYJtbYNtbYNtbYNtbYJsbIJsbIJtbYJsbIJtbYJtbYJsbIJsbIJsbIJsbIJtbYJtbYJsbIJtbYJsbIJtbYJtbYJsbIJtbYJtbYJtbYJsbIJsbIJtbYJsbIJsbIJsbIJsbIJtbYJsbIJsbIJtbYJsbIJtbYJtbYNtbYJtbYJtbYJsbIJtbYNsbIJtbYJtbYJsbIJsbIJsbIJsbIJtbYJsbIJtbYNtbYJtbYJsbIJsbIJtbYJsbIJsbIJsbIJsbIJtbYNtbYJtbYJtbYJsbIJtbYNtbYJtbYJsbIJtbYJsbIJsbIJtbYJtbYJtbYJtbYJsbIJtbYJsbIJsbIJtbYJsbIJsbIJtbYJtbYNtbYJsbIJsbIJtbYJtbYJtbYJsbIJtbYJtbYP////qL50AAAAAenRSTlMAAAAAO2RWIgFU4OecMznt8KRYAidhAhLVoAeEmwSPiRNfQA2bkSru8yYbl+m2YLz+3G0JJRaY/fLAzXMsBGPf0EcUFnbdt4I9FG7lbgcGAxnyI18px6AzwXUlGChy5uI66Pnk8exAIbHINU6r9L9sEAxCma+0saF8Gd414XUAAAABYktHRAMRDEzyAAAAB3RJTUUH4QgTDSokOKBqnQAAAStJREFUGNM1kWVbA0EMhJMuULy4O5QWb3F3d4pL8WLFnez+eJK9u9ztfZj3mUmyB4BcgOBDAP6kpKb505UUsAgoMmP0ZWRmZecoj4gEPktyA5SXX1DoEslAKCouQSwtI601lVd4aeKqDFRVQw2RYaJrXQ/W1Tc0NpEJNoeIxKTDLUK4d2tbe0dnVyQSZdlY1q16eiWsr3/ADA6FOUdkztPDI8FR2WRsfEIyuIERWfjk1LR4AGZm50iI82gdml9YlKnFt7S8Ijk2j2h1bV3BhqzDts2oSHZo2orJbNs7EgexXbIGe/bsPvsHh0fHJ/FT4zbi98xvCZ5fXF5dkyNyHOnEjXNvCLd32gJy8P2Dd9fMko8Jo23c0/PLq3KJ/W1v7/GPz6/vn9/kn/LqH/dbZrO5h58hAAAAAElFTkSuQmCC" />
-								</svg>
-							</a>
-							<a href="#" class="footer__social_fb">
-								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="23px">
-									<image  x="0px" y="0px" width="12px" height="23px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAXCAMAAAAIul6NAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAw1BMVEX///9tbYJtbYJsbIJsbIJtbYJsbIJtbYJsbIJtbYNsbIJsbIJsbIJsbIJtbYJsbIJtbYJsbIJtbYJsbIJtbYJsbIJsbIJsbIJtbYNtbYNtbYJtbYJtbYJtbYJtbYJtbYJtbYJtbYJsbIJsbIJtbYJtbYJtbYNtbYJtbYJsbIJtbYJtbYJsbIJsbIJsbIJsbIJsbIJtbYJtbYJtbYJsbIJsbIJtbYJsbIJsbIJsbIJsbIJtbYNsbIJtbYJtbYNsbIL///+33vmJAAAAPXRSTlMAYcXt/f54KviB5eO170cQDsKlHSMiyKAhItj5+Pzd3sns6/n26uwQExK6khETibaLtou3jLeMvZGh4OF7u9mRbAAAAAFiS0dEAIgFHUgAAAAHdElNRQfhCBMNKRg84kXZAAAAo0lEQVQY022PVwOCMAyEo4J7K85qxb1wbw39///KHIJPpC/3NXdpSoRKJFMWsx3oNLPPUtCZLBuOIGcEjJ0vAIq4L5UrVUBNtKlDNZpOSzp+u+N0qddXFsIDpRQNgzSOYdLi98WHITRyxxM0pjN3Tovlam3Estl6XvAOTDv61R7pQwhHTDrFdc6izSWEK6bdYgG7/W3YLII7/vMI4fnS+v0R8QUg4yOjHJJ8KwAAAABJRU5ErkJggg==" />
-								</svg>
-							</a>
-							<a href="#" class="footer__social_in">
-								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="19px">
-								<image  x="0px" y="0px" width="20px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAMAAACnUt2HAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABuVBMVEVsbIJtbYL///9tbYNtbYNtbYJtbYJsbIJtbYJsbIJtbYJtbYNtbYJtbYJtbYJsbIJtbYJsbIJtbYJtbYJsbIJtbYNtbYJsbIJtbYJtbYJsbIJsbIJtbYJsbIJsbIJsbIJsbIJtbYJtbYJsbIJtbYJsbIJtbYJsbIJtbYJsbIJtbYJsbIJtbYJtbYJtbYJsbIJtbYJsbIJtbYJtbYJsbIJsbIJsbIJtbYJtbYJsbIJsbIJsbIJtbYJsbIJsbIJtbYJsbIJtbYJtbYJtbYJtbYJtbYJtbYJsbIJsbIJtbYJsbIJsbIJtbYJsbIJsbIJsbIJtbYJtbYJsbIJsbIJsbIJtbYJtbYJtbYJtbYJtbYJsbIJtbYJtbYJsbIJtbYJsbIJsbIJsbIJsbIJsbIJsbIJtbYNsbIJsbIJtbYJtbYJtbYJsbIJtbYJtbYJsbIJtbYJsbIJtbYJtbYJsbIJtbYNtbYJtbYJsbIJtbYJsbIJsbIJsbIJsbIJtbYJsbIJtbYJtbYJsbIJsbIJsbIJtbYJtbYJtbYNsbIJtbYJsbIJsbIJsbIJtbYJsbIJsbIJtbYJsbIJtbYP///+he5hBAAAAj3RSTlMAAAAATaj77GQEzNQW09YZXLrs53QED0g5OkU7PjoJAjZNS1QzEkNZVz4K1/n0+NQeCLb28/zAaOrlkxzo4iAIwfr9pNzaH7f9zvXd2R24Yyctmvru3dgbB7e0DEfo69waB7OwEOXr2teyEubbGrWxEbTl2Qe1s0bm7eTgvbsTSe/4v+Hpvheg4emcDzzLz7KUdzEAAAABYktHRAJmC3xkAAAAB3RJTUUH4QgTDScQrLrgZQAAAUBJREFUGNMljwVTAzEQhTcc7lD0cJdixQst7q7lsNIibZFCcdfitnv/mM2xyUxmv7z3soHQsPCIyCgQIOQWIoQLopEoJpbJPwUDxhFifIJkxlYMmJiUbEpJlUAx/AaEtPQMMEomwr89U83KzsnNyy8oLCoWJaVl5RWVIWCuqq6prbPUNzQ2NbeEtSJa29rBpiPZOzq7+OjuQZKrF/oQsX/AMii7oeF+7mgERnmksXHLBDf2yanpmVnCOZhn6FjQFvkPS8ugrKwiOmGNJWaXe50INzZBqFuEHvByis+lLXHm9g6IlV0kJ+yx0ud377PyIMBKq852r7T7tUOd6CCgCPUIyQMOQ6ntoy6VimqVDx1zmMN/csp3ZwGA8wukS7hC1K9d7hse6fZOwP0D0SM82YLPL6/am+n94/NLEd8/puDvHwPOb5cfqRyjAAAAAElFTkSuQmCC" />
-								</svg>
-							</a>
+					<div class="col-md-6 col-xs-12">
+						<div class="footer__subscribe">
+							<h3>Newsletter</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typeset-<br>ting industry. Lorem Ipsum has been the industry's </p>
+							<form action="#" method="post">
+								<input type="email" placeholder="enter your email address">
+								<input type="submit" value="Subscribe">
+							</form>
+							<div class="footer__social">
+								<a href="#" class="footer__social_tw">
+									<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="18px" viewBox="0 0 25 18">
+										<image  x="0px" y="0px" width="25px" height="18px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAASCAMAAACZ8IWSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABelBMVEVsbIJtbYJtbYP///9tbYJsbIJtbYJsbIJtbYJsbIJsbIJtbYJtbYNtbYJsbIJsbIJsbIJsbIJtbYJsbIJtbYJtbYJtbYJtbYJsbIJsbIJtbYJtbYJtbYNtbYNtbYNtbYJsbIJsbIJtbYJsbIJtbYJtbYJsbIJsbIJsbIJsbIJtbYJtbYJsbIJtbYJsbIJtbYJtbYJsbIJtbYJtbYJtbYJsbIJsbIJtbYJsbIJsbIJsbIJsbIJtbYJsbIJsbIJtbYJsbIJtbYJtbYNtbYJtbYJtbYJsbIJtbYNsbIJtbYJtbYJsbIJsbIJsbIJsbIJtbYJsbIJtbYNtbYJtbYJsbIJsbIJtbYJsbIJsbIJsbIJsbIJtbYNtbYJtbYJtbYJsbIJtbYNtbYJtbYJsbIJtbYJsbIJsbIJtbYJtbYJtbYJtbYJsbIJtbYJsbIJsbIJtbYJsbIJsbIJtbYJtbYNtbYJsbIJsbIJtbYJtbYJtbYJsbIJtbYJtbYP////qL50AAAAAenRSTlMAAAAAO2RWIgFU4OecMznt8KRYAidhAhLVoAeEmwSPiRNfQA2bkSru8yYbl+m2YLz+3G0JJRaY/fLAzXMsBGPf0EcUFnbdt4I9FG7lbgcGAxnyI18px6AzwXUlGChy5uI66Pnk8exAIbHINU6r9L9sEAxCma+0saF8Gd414XUAAAABYktHRAMRDEzyAAAAB3RJTUUH4QgTDSokOKBqnQAAAStJREFUGNM1kWVbA0EMhJMuULy4O5QWb3F3d4pL8WLFnez+eJK9u9ztfZj3mUmyB4BcgOBDAP6kpKb505UUsAgoMmP0ZWRmZecoj4gEPktyA5SXX1DoEslAKCouQSwtI601lVd4aeKqDFRVQw2RYaJrXQ/W1Tc0NpEJNoeIxKTDLUK4d2tbe0dnVyQSZdlY1q16eiWsr3/ADA6FOUdkztPDI8FR2WRsfEIyuIERWfjk1LR4AGZm50iI82gdml9YlKnFt7S8Ijk2j2h1bV3BhqzDts2oSHZo2orJbNs7EgexXbIGe/bsPvsHh0fHJ/FT4zbi98xvCZ5fXF5dkyNyHOnEjXNvCLd32gJy8P2Dd9fMko8Jo23c0/PLq3KJ/W1v7/GPz6/vn9/kn/LqH/dbZrO5h58hAAAAAElFTkSuQmCC" />
+									</svg>
+								</a>
+								<a href="#" class="footer__social_fb">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="23px" viewBox="0 0 12 23">
+										<image  x="0px" y="0px" width="12px" height="23px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAXCAMAAAAIul6NAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAw1BMVEX///9tbYJtbYJsbIJsbIJtbYJsbIJtbYJsbIJtbYNsbIJsbIJsbIJsbIJtbYJsbIJtbYJsbIJtbYJsbIJtbYJsbIJsbIJsbIJtbYNtbYNtbYJtbYJtbYJtbYJtbYJtbYJtbYJtbYJsbIJsbIJtbYJtbYJtbYNtbYJtbYJsbIJtbYJtbYJsbIJsbIJsbIJsbIJsbIJtbYJtbYJtbYJsbIJsbIJtbYJsbIJsbIJsbIJsbIJtbYNsbIJtbYJtbYNsbIL///+33vmJAAAAPXRSTlMAYcXt/f54KviB5eO170cQDsKlHSMiyKAhItj5+Pzd3sns6/n26uwQExK6khETibaLtou3jLeMvZGh4OF7u9mRbAAAAAFiS0dEAIgFHUgAAAAHdElNRQfhCBMNKRg84kXZAAAAo0lEQVQY022PVwOCMAyEo4J7K85qxb1wbw39///KHIJPpC/3NXdpSoRKJFMWsx3oNLPPUtCZLBuOIGcEjJ0vAIq4L5UrVUBNtKlDNZpOSzp+u+N0qddXFsIDpRQNgzSOYdLi98WHITRyxxM0pjN3Tovlam3Estl6XvAOTDv61R7pQwhHTDrFdc6izSWEK6bdYgG7/W3YLII7/vMI4fnS+v0R8QUg4yOjHJJ8KwAAAABJRU5ErkJggg==" />
+									</svg>
+								</a>
+								<a href="#" class="footer__social_in">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="19px" viewBox="0 0 20 19">
+									<image  x="0px" y="0px" width="20px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAMAAACnUt2HAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABuVBMVEVsbIJtbYL///9tbYNtbYNtbYJtbYJsbIJtbYJsbIJtbYJtbYNtbYJtbYJtbYJsbIJtbYJsbIJtbYJtbYJsbIJtbYNtbYJsbIJtbYJtbYJsbIJsbIJtbYJsbIJsbIJsbIJsbIJtbYJtbYJsbIJtbYJsbIJtbYJsbIJtbYJsbIJtbYJsbIJtbYJtbYJtbYJsbIJtbYJsbIJtbYJtbYJsbIJsbIJsbIJtbYJtbYJsbIJsbIJsbIJtbYJsbIJsbIJtbYJsbIJtbYJtbYJtbYJtbYJtbYJtbYJsbIJsbIJtbYJsbIJsbIJtbYJsbIJsbIJsbIJtbYJtbYJsbIJsbIJsbIJtbYJtbYJtbYJtbYJtbYJsbIJtbYJtbYJsbIJtbYJsbIJsbIJsbIJsbIJsbIJsbIJtbYNsbIJsbIJtbYJtbYJtbYJsbIJtbYJtbYJsbIJtbYJsbIJtbYJtbYJsbIJtbYNtbYJtbYJsbIJtbYJsbIJsbIJsbIJsbIJtbYJsbIJtbYJtbYJsbIJsbIJsbIJtbYJtbYJtbYNsbIJtbYJsbIJsbIJsbIJtbYJsbIJsbIJtbYJsbIJtbYP///+he5hBAAAAj3RSTlMAAAAATaj77GQEzNQW09YZXLrs53QED0g5OkU7PjoJAjZNS1QzEkNZVz4K1/n0+NQeCLb28/zAaOrlkxzo4iAIwfr9pNzaH7f9zvXd2R24Yyctmvru3dgbB7e0DEfo69waB7OwEOXr2teyEubbGrWxEbTl2Qe1s0bm7eTgvbsTSe/4v+Hpvheg4emcDzzLz7KUdzEAAAABYktHRAJmC3xkAAAAB3RJTUUH4QgTDScQrLrgZQAAAUBJREFUGNMljwVTAzEQhTcc7lD0cJdixQst7q7lsNIibZFCcdfitnv/mM2xyUxmv7z3soHQsPCIyCgQIOQWIoQLopEoJpbJPwUDxhFifIJkxlYMmJiUbEpJlUAx/AaEtPQMMEomwr89U83KzsnNyy8oLCoWJaVl5RWVIWCuqq6prbPUNzQ2NbeEtSJa29rBpiPZOzq7+OjuQZKrF/oQsX/AMii7oeF+7mgERnmksXHLBDf2yanpmVnCOZhn6FjQFvkPS8ugrKwiOmGNJWaXe50INzZBqFuEHvByis+lLXHm9g6IlV0kJ+yx0ud377PyIMBKq852r7T7tUOd6CCgCPUIyQMOQ6ntoy6VimqVDx1zmMN/csp3ZwGA8wukS7hC1K9d7hse6fZOwP0D0SM82YLPL6/am+n94/NLEd8/puDvHwPOb5cfqRyjAAAAAElFTkSuQmCC" />
+									</svg>
+								</a>
+							</div>
 						</div>
 					</div>
-					<div class="footer__contact">
-						<form action="#" method="post">
-							<h3>Contact form</h3>
-							<div class="form-wrap">
-								<input type="text">
-								<input type="text">
-								<input type="text">
-							</div>
-							<div class="form-wrap">
-								<textarea name="text"></textarea>
-							</div>
-							<input type="submit" value="Submit">
-						</form>
-					</div>
-					<div class="footer__copy">
-						<p>Design by cssauthor.com © 2012-2013  Valid HTML5 and CSS3.</p>
+					<div class="col-md-6 col-xs-12">
+						<div class="footer__contact">
+							<form action="#" method="post">
+								<h3>Contact form</h3>
+								<div class="form-wrap">
+									<input type="text">
+									<input type="text">
+									<input type="text">
+								</div>
+								<div class="form-wrap">
+									<textarea name="text"></textarea>
+								</div>
+								<input type="submit" value="Submit">
+							</form>
+						</div>
+					</div>	
+					<div class="col-xs-12">
+						<div class="footer__copy">
+							<p>Design by cssauthor.com © 2012-2013  Valid HTML5 and CSS3.</p>
+						</div>
 					</div>
 				</div>
 			</div>
